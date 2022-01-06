@@ -1,0 +1,19 @@
+.avatar {
+  /* Frame 54 */
+
+  position: static;
+  width: 48px;
+  height: 48px;
+  left: 96px;
+  top: 0px;
+
+  background: url("https://picsum.photos/200");
+  border-radius: 30px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 24px;
+}

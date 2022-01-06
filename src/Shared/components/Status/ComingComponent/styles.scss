@@ -1,0 +1,63 @@
+.comingComponent {
+  height: 31px;
+  width: 123px;
+  left: 20px;
+  top: 92px;
+  border-radius: 4px;
+  padding: 8px, 12px, 8px, 12px;
+  background: #eaf1f8;
+  border: 1px solid #919dba;
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+
+  position: absolute;
+  left: 20px;
+  top: 92px;
+
+  background: #eaf1f8;
+  /* Grey/5 */
+
+  border: 1px solid #919dba;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  .comingText {
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    /* Chưa bắt đầu */
+
+    position: static;
+    width: 83px;
+    height: 15px;
+    left: 28px;
+    top: 8px;
+
+    /* Grey/5 */
+
+    color: #919dba;
+
+    p {
+      /* 12 medium */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0px 8px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.yesDisable {
+  /* Check=Yes, State=Enable */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 59px;
+  top: 20px;
+  .yesDisableFrame {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Grey/4 */
+
+    background: #a5a8b1;
+    /* Grey/4 */
+
+    border: 1px solid #a5a8b1;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
