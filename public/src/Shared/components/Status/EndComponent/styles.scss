@@ -1,0 +1,46 @@
+.endComponent {
+  height: 31px;
+  width: 112px;
+  left: 20px;
+  top: 56px;
+  border-radius: 4px;
+  padding: 8px, 12px, 8px, 12px;
+  background: #f8ebe8;
+  border: 1px solid #fd5959;
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #fd5959;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  .endText {
+    /* Đã kết thúc */
+    display: flex;
+    align-items: center;
+    position: static;
+    width: 72px;
+    height: 15px;
+    left: 28px;
+    top: 8px;
+    p {
+      /* 12 medium */
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+      color: #fd5959;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0px 8px;
+    }
+  }
+}

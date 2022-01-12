@@ -1,0 +1,34 @@
+.mailNotice {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 12px;
+
+  opacity: 0.8;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  svg:first-child {
+    /* Vector */
+
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 25%;
+    bottom: 45.83%;
+  }
+  svg:nth-child(2) {
+    /* Vector */
+
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+  }
+}

@@ -1,0 +1,46 @@
+.outlineMDefault {
+  /* State=Outline, Size=M, Icons=Default */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 16px;
+
+  position: absolute;
+  width: 87px;
+  height: 36px;
+  left: 158px;
+  top: 68px;
+
+  /* Yellow/1 */
+
+  border: 1px solid #ff993c;
+  box-sizing: border-box;
+  border-radius: 6px;
+  span {
+    /* Sample */
+
+    position: static;
+    width: 55px;
+    height: 22px;
+    left: 16px;
+    top: 7px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    display: flex;
+    align-items: center;
+
+    /* Yellow/1 */
+
+    color: #ff993c;
+  }
+}

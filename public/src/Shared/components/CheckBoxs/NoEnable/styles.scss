@@ -1,0 +1,28 @@
+.noEnable {
+  /* Frame 84 */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  border: 2px solid #27aef9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .noCheckboxEllipse {
+    /* Ellipse 5 */
+
+    position: absolute;
+    visibility: hidden;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Blue/5 */
+
+    border: 1px solid #3599d0;
+    box-sizing: border-box;
+  }
+}

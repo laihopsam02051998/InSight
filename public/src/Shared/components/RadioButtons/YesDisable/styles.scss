@@ -1,0 +1,29 @@
+.yesDisable {
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+  border-radius: 19px;
+  background: #ffffff;
+  border: 2px solid #a5a8b1;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  .yesDisEclipse {
+    /* Ellipse 6 */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+
+    /* Grey/4 */
+    background: #a5a8b1;
+    border-radius: 19px;
+  }
+}
