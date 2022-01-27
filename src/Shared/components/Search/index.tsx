@@ -1,6 +1,7 @@
+import React from 'react'
 import './styles.scss';
 
-export const Search =()=>{
+ const Search =()=>{
     return (
         <div className='searchContainer'>
         <input type="text" className='search' placeholder='Search'/>
@@ -13,3 +14,6 @@ export const Search =()=>{
         </div>
     )
 }
+
+export default Search
+

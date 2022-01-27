@@ -4,9 +4,7 @@ export const NoEnable = () =>{
 
     return(
         <div className="noEnable">
-            <div className="noCheckboxEllipse">
-
-            </div>
+            <div className="noCheckboxEllipse"></div>
         </div>
     )
 }
