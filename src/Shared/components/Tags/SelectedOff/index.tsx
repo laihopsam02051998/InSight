@@ -1,6 +1,10 @@
 import './styles.scss';
 
-export const SelectedOff=()=>{
+type tagProps = {
+    title: string
+    icon : string
+}
+export const SelectedOff=({title, icon}:tagProps)=>{
     
     return (
         <div className='SelectedOff'>
@@ -10,7 +14,7 @@ export const SelectedOff=()=>{
 </svg>
         </div>
         <div  className='SelectedOffTitle'>
-        <p>Sample</p>
+        <p>{title}</p>
         </div>
         
     </div>

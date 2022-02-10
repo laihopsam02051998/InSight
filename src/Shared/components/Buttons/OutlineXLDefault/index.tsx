@@ -1,12 +1,7 @@
-import React from 'react'
 import"./styles.scss"
 
-type OutlineXLDefaultProps={
-    name:string
-}
-export const OutlineXLDefault=({name}:OutlineXLDefaultProps)=>{
+export const OutlineXLDefault=()=>{
     return (
-       <div>
-        <button className="outlineXLDefault"><span>{name}</span></button></div>
+        <button className="outlineXLDefault"><span>Xuất file(.csv)</span></button>
     )
 }

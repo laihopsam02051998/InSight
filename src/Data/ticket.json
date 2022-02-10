@@ -1,0 +1,112 @@
+{
+    "ticketList":[
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 123456789034, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"finish",
+            "date":"14/04/2021",
+            "buyDate":"14/04/2021",
+            "entrance":"Cổng 1"
+        },
+        {
+            "id" :"ALTOJMNB",
+            "ticketQuality" : 236784631642,
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"coming",
+            "date":"14/04/2021",
+            "buyDate":"14/04/2021",
+            "entrance":"-"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 40, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"coming",
+            "date":"29/04/2021",
+            "buyDate":"20/04/2021",
+            "entrance":"Cổng 3"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 487621489474, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"opening",
+            "date":"14/04/2021",
+            "buyDate":"14/04/2021",
+            "entrance":"Cổng 1"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 156464891479, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"finish",
+            "date":"18/04/2021",
+            "buyDate":"22/04/2021",
+            "entrance":"Cổng 2"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 20164963189640, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"coming",
+            "date":"29/04/2021",
+            "buyDate":"20/04/2021",
+            "entrance":"Cổng 3"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 20, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"opening",
+            "date":"14/04/2021",
+            "buyDate":"14/04/2021",
+            "entrance":"Cổng 1"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 30, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"finish",
+            "date":"18/04/2021",
+            "buyDate":"22/04/2021",
+            "entrance":"Cổng 2"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 40, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"coming",
+            "date":"29/04/2021",
+            "buyDate":"20/04/2021",
+            "entrance":"Cổng 3"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 20, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"opening",
+            "date":"14/04/2021",
+            "buyDate":"14/04/2021",
+            "entrance":"Cổng 1"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 30, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"finish",
+            "date":"18/04/2021",
+            "buyDate":"22/04/2021",
+            "entrance":"Cổng 2"
+        },
+        {
+            "id" :"ALT20210501",
+            "ticketQuality" : 40, 
+            "eventName" : "Hội chợ triển lãm tiêu dùng 2021",
+            "status":"coming",
+            "date":"29/04/2021",
+            "buyDate":"20/04/2021",
+            "entrance":"Cổng 3"
+        }
+    ]
+}

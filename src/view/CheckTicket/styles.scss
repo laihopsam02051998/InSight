@@ -1,0 +1,365 @@
+.checkContainer {
+  display: flex;
+  .checkContainerLeft {
+    position: absolute;
+    width: 900px;
+    height: 963px;
+    left: 300px;
+    top: 85px;
+
+    background: #ffffff;
+    border-radius: 24px;
+    h2 {
+      position: absolute;
+      width: 209px;
+      height: 54px;
+      left: 24px;
+      top: 0px;
+
+      /* 36 bold */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 54px;
+      /* identical to box height, or 150% */
+
+      display: flex;
+      align-items: center;
+
+      /* Text */
+
+      color: #1e0d03;
+    }
+    button {
+      position: absolute;
+      right: 24px;
+      top: 110px;
+    }
+    .searchContainer {
+      position: absolute;
+      left: 24px;
+      top: 110px;
+    }
+  }
+  .checkContainerRight {
+    position: absolute;
+    width: 440px;
+    height: 963px;
+    left: 1220px;
+    top: 85px;
+
+    background: #ffffff;
+    border-radius: 24px;
+    h2 {
+      position: absolute;
+      width: 81px;
+      height: 30px;
+      left: 24px;
+      top: 22px;
+
+      /* 24 bold */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    p:nth-child(2) {
+      position: absolute;
+      width: 156px;
+      height: 26px;
+      left: 24px;
+      top: 84px;
+      /* 16 semibold */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+
+      display: flex;
+      align-items: center;
+
+      /* Text */
+
+      color: #1e0d03;
+
+      opacity: 0.8;
+    }
+    p:nth-child(3) {
+      position: absolute;
+      width: 58px;
+      height: 26px;
+      left: 24px;
+      top: 190px;
+
+      /* 16 semibold */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+
+      display: flex;
+      align-items: center;
+    }
+    p:nth-child(4) {
+      position: absolute;
+      width: 66px;
+      height: 26px;
+      left: 24px;
+      top: 240px;
+
+      /* 16 semibold */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+
+      display: flex;
+      align-items: center;
+
+      /* Text */
+
+      color: #1e0d03;
+
+      opacity: 0.8;
+    }
+    p:nth-child(5) {
+      position: absolute;
+      width: 80px;
+      height: 26px;
+      left: 24px;
+      top: 315px;
+
+      /* 16 semibold */
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+
+      display: flex;
+      align-items: center;
+    }
+    .nomalRightIcon {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 16px;
+
+      position: absolute;
+      width: 150px;
+      height: 40px;
+      left: 206px;
+      top: 314px;
+
+      /* Grey / 1 */
+
+      background: #f7f8fb;
+      border-radius: 8px;
+    }
+    .fillRightIcon {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 16px;
+
+      position: absolute;
+      width: 192px;
+      height: 40px;
+      left: 206px;
+      top: 250px;
+
+      /* Grey/3 */
+
+      background: #e0e0e0;
+      border-radius: 8px;
+    }
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 11px 24px;
+
+      position: absolute;
+      width: 160px;
+      height: 48px;
+      left: 136px;
+      top: 410px;
+
+      /* Yellow/1 */
+
+      border: 1px solid #ff993c;
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+    .statusContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      position: absolute;
+      width: 194px;
+      height: 96px;
+      left: 206px;
+      top: 105px;
+
+      .radioChoose:first-child {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 0px;
+        top: 0px;
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      .radioChoose:nth-child(2) {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 1px;
+        top: 36px;
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      .radioChoose:nth-child(3) {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 2px;
+        top: 72px;
+
+        background: #ffffff;
+        border-radius: 20px;
+      }
+      p:nth-child(5) {
+        position: absolute;
+        width: 149px;
+        height: 20px;
+        left: 42px;
+        top: 39px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        /* Text */
+
+        color: #1e0d03;
+
+        opacity: 0.7;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      p:nth-child(6) {
+        position: absolute;
+        width: 149px;
+        height: 20px;
+        left: 42px;
+        top: 77px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        /* Text */
+
+        color: #1e0d03;
+
+        opacity: 0.7;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+      p:nth-child(4) {
+        position: absolute;
+        width: 149px;
+        height: 20px;
+        left: 42px;
+        top: 2px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        /* Text */
+
+        color: #1e0d03;
+
+        opacity: 0.7;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 8px;
+      }
+    }
+  }
+  .ticketTable {
+    position: absolute;
+    width: 855px;
+    height: 590px;
+    left: 24px;
+    top: 182px;
+    tr {
+      width: 1049px;
+      height: 48px;
+      border: 1px solid gray;
+    }
+  }
+  .checkPanigation {
+    position: absolute;
+    width: 228px;
+    height: 20px;
+    left: 360px;
+    top: 800px;
+  }
+}

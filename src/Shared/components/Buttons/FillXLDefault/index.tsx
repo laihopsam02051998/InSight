@@ -1,7 +1,10 @@
 import"./styles.scss"
 
-export const FillXLDefault=()=>{
+type fillButtonProps = {
+    buttonName:string
+}
+export const FillXLDefault=({buttonName}:fillButtonProps)=>{
     return (
-        <button className="fillXLDefault"><span>Sample</span></button>
+        <button className="fillXLDefault"><span>{buttonName}</span></button>
     )
 }

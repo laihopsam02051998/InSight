@@ -1,8 +1,12 @@
 import './styles.scss'
 
+type tagProps = {
+    title: string
+    icon : string
+}
 
 
-export const SelectedOn =()=>{
+export const SelectedOn =({title, icon}:tagProps)=>{
     return (
         <div className='SelectedOn'>
             <div className='SelectedOnIcon'>
@@ -12,7 +16,7 @@ export const SelectedOn =()=>{
 
             </div>
             <div  className='SelectedOnTitle'>
-            <p>Sample</p>
+            <p>{title}</p>
             </div>
             
         </div>

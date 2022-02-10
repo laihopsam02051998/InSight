@@ -1,9 +1,33 @@
+import React from 'react';
+import { OpenComponent } from './OpenComponent';
+import { EndComponent } from './EndComponent';
+import { ComingComponent } from './ComingComponent';
 import './styles.scss';
 
-export const Status =()=>{
-    return (
-     <div>
-         <h1>Status</h1>
-     </div>
-    )
+type StatusProps ={
+    status:string
 }
+
+ const Status =({status}: StatusProps)=>{
+
+    const statusChooses =(statusChoose:string)=>{
+        if(statusChoose==="opening"){
+            return <OpenComponent />
+        }
+        if(statusChoose==="finish"){
+            return <EndComponent />
+        }
+        if(statusChoose==="coming"){
+            return <ComingComponent />
+        }
+    }
+
+    return (
+        <div>
+            {statusChooses(status)}
+        </div>
+    )
+    
+}
+
+export default Status

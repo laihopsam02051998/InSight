@@ -2,17 +2,17 @@
   /* Selected=on */
 
   /* Auto Layout */
-
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 15px 16px;
 
-  position: absolute;
+  // position: absolute;
   width: 236px;
   height: 56px;
-  left: 20px;
-  top: 20px;
+  // left: 20px;
+  // top: 20px;
   /* Yellow/0 */
 
   background: #ffb800;
@@ -39,13 +39,12 @@
     /* Sample */
 
     position: static;
-    width: 71px;
-    height: 26px;
+    // width: 256px;
+    // height: 56px;
     left: 52px;
     top: 15px;
     p {
       /* Inside Auto Layout */
-
       flex: none;
       order: 1;
       flex-grow: 0;

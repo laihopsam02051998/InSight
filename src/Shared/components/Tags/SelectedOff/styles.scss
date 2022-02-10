@@ -1,21 +1,20 @@
 .SelectedOff {
   /* Selected=on */
-
   /* Auto Layout */
-
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 15px 16px;
 
-  position: absolute;
+  // position: absolute;
   width: 236px;
   height: 56px;
-  left: 20px;
-  top: 20px;
+  // left: 20px;
+  // top: 20px;
   /* Yellow/0 */
 
-  background: #e5e5e5;
+  background: #f9f6f4;
   border-radius: 8px;
   box-sizing: border-box;
   .SelectedOffIcon {
@@ -40,8 +39,8 @@
     /* Sample */
 
     position: static;
-    width: 71px;
-    height: 26px;
+    // width: 71px;
+    // height: 26px;
     left: 52px;
     top: 15px;
     p {

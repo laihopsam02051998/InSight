@@ -1,10 +1,12 @@
-import React from 'react'
 import './styles.scss';
 
- const Search =()=>{
+type SearchProps={
+    placeholder?:string
+}
+export const Search =({placeholder}:SearchProps)=>{
     return (
         <div className='searchContainer'>
-        <input type="text" className='search' placeholder='Search'/>
+        <input type="text" className='search' placeholder={placeholder} />
        <div className='searchIcon'>
      
        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,6 +16,3 @@ import './styles.scss';
         </div>
     )
 }
-
-export default Search
-

@@ -1,27 +1,37 @@
 .nomalRightIcon {
-  background: #f1f4f8;
-  padding: 8px 12px;
-  width: 142px;
-  height: 40px;
-  // left: 304px;
-  // top: 167px;
-  border-radius: 8px;
-  opacity: 0.7;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  padding: 8px 16px;
+  font-size: 1rem;
+  // position: absolute;
+  width: 150px;
+  height: 40px;
+  // left: 206px;
+  // top: 314px;
   border: none;
-}
+  /* Grey / 1 */
 
-.nomalRightIcon::-webkit-calendar-picker-indicator {
-  background: #ff993c;
-  height: 20px;
-  width: 20px;
-  left: 2px;
-  top: 2px;
-  border-radius: 0px;
+  background: #f7f8fb;
+  border-radius: 8px;
+}
+.calenderIcon {
+  position: static;
+  width: 24px;
+  height: 24px;
+  left: 106px;
+  top: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+  svg {
+    position: absolute;
+    right: 70px;
+    top: 330px;
+  }
 }

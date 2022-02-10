@@ -1,0 +1,9 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #f9f6f4;
+  .noticeContainer {
+    display: flex;
+  }
+}
